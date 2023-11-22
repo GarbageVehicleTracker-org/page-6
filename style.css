@@ -1,0 +1,88 @@
+.driver-details {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .driver-details .driver-info {
+    flex: 1;
+    background-color: white;
+    border: 1px solid #ccc;
+  }
+  
+  .driver-details h1 {
+    color: #000;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .driver-details table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .driver-details th, .driver-details td {
+    padding: 5px;
+  }
+  
+  .driver-details th {
+    background-color: #eee;
+    text-align: left;
+  }
+  
+  .driver-details .driver-table img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .driver-details .vehicle-info {
+    flex-basis: 200px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .driver-details .vehicle-info h2 {
+    margin-bottom: 10px;
+  }
+  
+  .driver-details .vehicle-info table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .driver-details .vehicle-info th, .driver-details .vehicle-info td {
+    padding: 5px;
+  }
+  
+  .driver-details .vehicle-info th {
+    background-color: #eee;
+    text-align: left;
+  }
+  
+  .driver-details .vehicle-info img {
+    width: 100px;
+    height: 75px;
+  }
+  
+  .track-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: fixed;
+    top: 70%;  /* Adjust the percentage as needed */
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  
+  
+  
